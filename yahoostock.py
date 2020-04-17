@@ -74,6 +74,7 @@ def parse(ticker):
 		return {"error":"Failed to parse json response"}
 
 if __name__=="__main__":
+	#calling parse function for Appal companys information
 	scraped_data=parse('aapl')
 	print(scraped_data)
 	#Writing the data into the json file
